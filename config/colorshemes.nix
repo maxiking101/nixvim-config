@@ -10,6 +10,7 @@
         color_mode = true;
       };
       neotree = true;
+      lspsaga.enable = true;
     };
   };
 }

@@ -20,14 +20,18 @@
     ./treesitter.nix
     ./colorshemes.nix
     ./auto-session.nix
-    ./dropbar.nix
+    #./dropbar.nix
     #./edgy.nix
+    ./lspsaga.nix
+    ./indent-o-matic.nix
+    ./eagle.nix
   ];
 
   opts = {
     number = true;
     shiftwidth = 2;
     cursorline = true;
+    mousemoveevent = true;
   };
   globals.mapleader = " ";
   diagnostics.update_in_insert = true;
